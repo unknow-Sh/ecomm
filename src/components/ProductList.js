@@ -4,7 +4,7 @@ import { addToCart } from "@/redux/slice/cartSlice";
 import React from "react";
 import { useDispatch } from "react-redux";
 
-const ProductList = async ({ products }) => {
+const ProductList = ({ products }) => {
   const dispatch = useDispatch();
   return (
     <>
